@@ -1,0 +1,13 @@
+{
+  "name": "frontend-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "./api-server",
+    "./web-app"
+  ],
+  "scripts": {
+    "app": "yarn workspace web-app",
+    "api": "yarn workspace api-server"
+  }
+}

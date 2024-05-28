@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  border-bottom-width: 4px;
+  border-color: rgb(6, 182, 212);
+  padding: 1rem 1.5rem;
+}
+
+.children {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  padding: 1.25rem 1.25rem 1.75rem;
+}

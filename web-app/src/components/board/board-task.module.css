@@ -1,0 +1,35 @@
+.padding {
+  padding: 0.5rem 0.75rem;
+}
+
+.text {
+  text-align: right;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: rgb(241, 245, 249);
+  filter: drop-shadow(0 1px 2px rgb(0, 0, 0, 0.1))
+    drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));
+  border-radius: 0.25rem;
+  text-align: left;
+}
+
+.header {
+  font-style: italic;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.content {
+  font-weight: 500;
+  border-color: rgb(226, 232, 240);
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}

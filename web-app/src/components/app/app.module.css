@@ -1,0 +1,18 @@
+.main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 2.5rem;
+  background-image: linear-gradient(to bottom, #06b6d4, #6366f1);
+}
+
+.heading {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.droppable {
+  height: 100%;
+}
